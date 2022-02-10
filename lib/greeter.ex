@@ -4,7 +4,7 @@ defmodule Greeter do
   """
   @friends ["jonas", "andi"]
   @types [:friendly, :formal]
-  def hello(:friendly, name) when name in @friends, do: "hello, #{name}"
+  def hello(:friendly, name) when name in @friends, do: "dere, #{name}"
 
   def hello(:formal, name) when name in @friends, do: "welcome, #{name}"
 
